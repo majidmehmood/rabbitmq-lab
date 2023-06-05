@@ -14,7 +14,7 @@ public class Publisher {
             // exchanges and queues
             ConnectionFactory factory = new ConnectionFactory();
             factory.setHost(Constants.HOST);
-            String uri = "amqp://guest:guest@localhost:5672";
+            String uri = "amqp://guest:guest@3.123.253.71:5672";
             factory.setUri(uri);
 
             Connection connection = factory.newConnection();

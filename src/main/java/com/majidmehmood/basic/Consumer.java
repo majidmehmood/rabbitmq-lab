@@ -13,7 +13,7 @@ public class Consumer {
 	public static void main(String[] args) {
 
 		ConnectionFactory factory = new ConnectionFactory();
-		factory.setHost("localhost");
+		factory.setHost("3.123.253.71");
 		try {
 			// optional: if not defined RabbitMQ will define and handle its own thread pool
 			ExecutorService eService = Executors.newFixedThreadPool(10);
